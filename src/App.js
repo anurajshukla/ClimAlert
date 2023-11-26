@@ -5,6 +5,7 @@ import { Button} from 'react-bootstrap'
 
 
 function App() {
+  // used an api 
   const api_key = "628a2b32d4ad509122904ca3a0c0ffc2";
   const [location, setLocation] = useState('');
   const [data, setData] = useState({});
